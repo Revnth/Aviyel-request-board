@@ -12,7 +12,7 @@ const CardCollection = () => {
             title={item.title}
             name={item.Name}
             desc={item.desc}
-            flag={item.flag}
+            
           />
         ))}
       </div>
@@ -20,13 +20,13 @@ const CardCollection = () => {
   );
 };
 
-const Card = ({ image, title, name, desc, flag }) => {
+const Card = ({ image, title, name, desc }) => {
   return (
     <>
       <div className="card">
         <div className="image">
           <img className="card-image" src={image} alt="" />
-          <img className="sub-image" src={flag}  alt="" />
+        
         </div>
         <div className="card-content">
           <h3>{name}</h3>
@@ -37,14 +37,11 @@ const Card = ({ image, title, name, desc, flag }) => {
             <span className="b1">
               <img src={b1} alt="" />
               <a link href="#">
-                Contribution link
+                Issue link
               </a>
             </span>
 
-            <span className="b1">
-              <img src={b2} alt="" />
-              <a href="#">Social Connect</a>
-            </span>
+          
           </div>
         </div>
       </div>
