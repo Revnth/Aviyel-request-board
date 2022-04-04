@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap');
+.parent {
+  display: grid;
+  width: 95%;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  grid-column-gap: 1%;
+  grid-row-gap: 4%;
+}
+.card {
+  padding: 35px;
+  display: flex;
+  box-shadow: 0.2919134199619293px 0.2919134199619293px 3.6489179134368896px 0px
+    #00000040 inset;
+  border-radius: 23px;
+}
+.image {
+  position: relative;
+  height: fit-content;
+}
+.card-image {
+  height: 120.28379821777344px;
+  width: 120.28379821777344px;
+  border-radius: 50%;
+  border: 3.34px solid #8661d1;
+}
+
+.sub-image {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  border: 2px solid #8661d1;
+  bottom: 10%;
+  right: 10%;
+  z-index: 1000;
+  background: white;
+  line-height: 0.9em;
+
+}
+
+
+.card-content {
+  width: 80%;
+  padding-left: 5%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+
+}
+
+.card-content p{
+ 
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   color:#A49696
+}
+.card-content h3 {
+margin:12px;
+margin-bottom: 6px;
+}
+
+.card-content h4{
+  margin:12px;
+  margin-top:6px;
+  margin-bottom: 6px;
+  }
+
+  .card-content p{
+    margin:6px;
+    
+  } 
+
+.card-button {
+  display: flex;
+  padding: 1px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.b1 {
+ 
+font-size: 10px;
+border: 0.854889px solid #8661D1;
+box-sizing: border-box;
+border-radius: 1.78033px;
+margin-right: 5px;
+display:flex;
+width: 100%;
+height: 20.8px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.b1 img{
+  width: 13px;
+  height: 7px;
+  
+}
+
+.b1 img{
+  width: 11px;
+  height: 11px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #8661d1;
+}
+
+@media screen and (max-width: 1340px) {
+  .b1 {
+  
+  font-size: 8px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+  .parent {
+  
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1295px) {
+  .parent {
+  
+    width: 95%;
+  }
+}
+
+
+@media screen and (max-width: 1250x) {
+  .parent {
+  
+    width: 97%;
+  }
+  .card{
+    padding: 20px;
+  }
+  .card-content{
+    font-size: 11px;
+  }
+
+
+}
+  
+@media screen and (max-width: 1000px) {
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .parent {
+  
+    width:60%;
+   
+    grid-column-gap: 3%;
+    grid-row-gap: 4%;
+  }
+
+}
+
+@media screen and (max-width: 634px) {
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+    margin:0 auto;
+  }
+  .card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .b1{
+    font-size: 7px;
+  }
+
+}
+  
+
+@media screen and (max-width: 619px) {
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-content h3 {
+    font-size: 15px;
+    }
+  
+  .card-content h4{
+
+    font-size: 12px;
+    }
+
+    .b1{
+      font-size: 7px;
+    }
+  }
+
+  @media screen and (max-width: 616px) {
+    .parent {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .card-content h3 {
+      font-size: 13px;
+      }
+    
+   
+    }
+  
+    @media screen and (max-width: 605px) {
+      .parent {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .b1 {
+        font-size: 6.5px;
+        }
+      .card{
+        padding: 35px 10px;
+      }
+     
+      }
+
+  
+
+
+
+
