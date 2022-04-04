@@ -5,7 +5,7 @@
   width: 95%;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
-  grid-column-gap: 1%;
+  grid-column-gap: 3%;
   grid-row-gap: 4%;
 }
 .card {
