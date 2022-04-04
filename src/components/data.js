@@ -7,7 +7,7 @@ export const Data = [
     pic: "https://picsum.photos/200/300",
     
     Name: "Project Name",
-    title: "One Line Description",
+    title: "One Line Description qwertyuioki gcxvjmln",
     desc: "Prerequisites",
   },
   {
