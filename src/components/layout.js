@@ -19,7 +19,7 @@ const Layout = () => {
         </div>
 
         <div className="third-heading">
-          <p>Featuring contributions by the Aviyel Community!</p>
+       
         </div>
         
       </div>
