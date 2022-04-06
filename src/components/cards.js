@@ -16,11 +16,11 @@ const CardCollection = () => {
         {Data.map((item) => (
           
           <Card
-            image={item.pic}
-            title={item.title}
-            name={item.Name}
-            desc={item.desc}
-            url={item.url}
+            projectImageURL={item.projectImageURL}
+            issueShortDesc={item.issueShortDesc}
+            projectName={item.projectName}
+            issueLongDesc={item.issueLongDesc}
+            issueURL={item.issueURL}
           />
         ))}
       </div>
@@ -30,18 +30,18 @@ const CardCollection = () => {
   );
 };
 
-const Card = ({ image, title, name, desc,url}) => {
+const Card = ({ projectImageURL, issueShortDesc, projectName, issueLongDesc,issueURL}) => {
   return (
 
-    <a href={url} target="_blank">
+    <a href={issueURL} target="_blank">
       <div className="card">
         <div className="image">
-          <img className="card-image" src={image} alt="" />
+          <img className="card-image" src={projectImageURL} alt="" />
         </div>
         <div className="card-content">
-          <h3>{name}</h3>
-          <h4>{title}</h4>
-          <p>{desc}</p>
+          <h3>{projectName}</h3>
+          <h4>{issueShortDesc}</h4>
+          <p>{issueLongDesc}</p>
 
 
         </div>

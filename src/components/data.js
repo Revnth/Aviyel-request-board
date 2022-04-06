@@ -4,18 +4,18 @@
 const Data = [
   {
     
-    pic: "https://avatars.githubusercontent.com/u/19822348?v=4",
-    url:"https://www.google.com",
-    Name: "Project 1",
-    title: "One Line Description",
-    desc: "Prerequisites",
+    projectImageURL: "https://avatars.githubusercontent.com/u/19822348?v=4",
+    issueURL:"https://www.google.com",
+    projectName: "Project 1",
+    issueShortDesc: "One Line Description",
+    issueLongDesc: "Detailed Description of the issue",
   },
   {
-    pic: "https://avatars.githubusercontent.com/u/19822348?v=4",
-    url:"#",
-    Name: "Project 2",
-    title: "One Line Description qwertyuioki gcxvjmln",
-    desc: "Prerequisites",
+    projectImageURL: "https://avatars.githubusercontent.com/u/23416667?s=200&v=4",
+    issueURL:"https://www.google.com",
+    projectName: "Project 1",
+    issueShortDesc: "One Line Description",
+    issueLongDesc: "Detailed Description of the issue",
   },
   
 
