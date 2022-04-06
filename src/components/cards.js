@@ -12,13 +12,18 @@ const CardCollection = () => {
   const [state, setState] = useState([]);
 
   const getData = async () => {
-    for ( let i = 0; i < organizations.length; i++ ) {
-    const response = await axios(`https://api.github.com/orgs/${organizations[i]}`);
-    console.log(response?.data?.avatar_url);
-    // setState(arr => [response?.data?.avatar_url]);
-      state.push(response?.data?.avatar_url);
+    // for ( let i = 0; i < organizations.length; i++ ) {
+    // const response = await axios(`https://api.github.com/orgs/${organizations[i]}`);
+    // console.log(response?.data?.avatar_url);
+    // setState([...state, response?.data?.avatar_url])
+    // // setState();
+    //   // state.push(response?.data?.avatar_url);
 
-    }
+    // }
+    let promises = organizations.map(organization => axios.get(`https://api.github.com/orgs/${organization}`) )
+    let responses = await Promise.all(promises)
+    let urls = responses?.map(r => (r?.data?.avatar_url))
+    setState(urls)
   };
   useEffect(() => {
     getData();
