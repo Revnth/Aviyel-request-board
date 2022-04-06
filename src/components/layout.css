@@ -3,7 +3,7 @@
 
 .wrapper {
     position: relative;
-    height: 66vh;
+    margin-bottom:10rem;
 }
 
 .bg {
@@ -46,7 +46,7 @@
 
 .second-heading {
     font-family: Poppins;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0em;
@@ -132,10 +132,6 @@
 
 @media screen and (max-width: 800px) {
 
-    .wrapper {
-
-        height: 66vh;
-    }
 
     .bg {
         height: 80vh;
@@ -153,32 +149,32 @@
 }
 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
 
     .wrapper {
 
         height: 66vh;
     }
 
-}
+} */
 
-@media screen and (max-width: 793px) {
+/* @media screen and (max-width: 793px) {
 
     .wrapper {
 
         height: 62vh;
     }
 
-}
+} */
 
 
 
 @media screen and (max-width: 650px) {
 
-    .wrapper {
+    /* .wrapper {
 
         height: 45vh;
-    }
+    } */
 
     .bg {
         height: 60vh;
@@ -209,7 +205,7 @@
 
 
 .wrapper {
-    height: 36vh;
+    /* height: 36vh; */
     margin-top: 47px;
 }
 
