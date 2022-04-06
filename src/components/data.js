@@ -1,6 +1,7 @@
 
 
 
+<<<<<<< HEAD
 export const Data = [
   {
     
@@ -58,6 +59,10 @@ export const Data = [
     title: "One Line Description",
     desc: "Prerequisites",
   },
+=======
+>>>>>>> 8ebe7c7e4a473860f741edd472ba74bc1d620b25
 
-  
-];
+
+
+// }
+

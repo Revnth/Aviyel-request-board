@@ -3,7 +3,7 @@
 
 .wrapper {
     position: relative;
-    height: 100vh;
+    height: 66vh;
 }
 
 .bg {
@@ -134,7 +134,7 @@
 
     .wrapper {
 
-        height: 80vh;
+        height: 66vh;
     }
 
     .bg {
@@ -152,11 +152,32 @@
 
 }
 
+
+@media screen and (max-width: 800px) {
+
+    .wrapper {
+
+        height: 66vh;
+    }
+
+}
+
+@media screen and (max-width: 793px) {
+
+    .wrapper {
+
+        height: 62vh;
+    }
+
+}
+
+
+
 @media screen and (max-width: 650px) {
 
     .wrapper {
 
-        height: 60vh;
+        height: 45vh;
     }
 
     .bg {
@@ -183,12 +204,14 @@
 }
 
 
+
 @media screen and (max-width: 550px) {
 
-    .wrapper {
 
-        height: 40vh;
-    }
+.wrapper {
+    height: 36vh;
+    margin-top: 47px;
+}
 
     .bg {
         height: 40vh;
