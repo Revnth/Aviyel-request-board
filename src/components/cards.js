@@ -15,8 +15,8 @@ const CardCollection = () => {
     for ( let i = 0; i < organizations.length; i++ ) {
     const response = await axios(`https://api.github.com/orgs/${organizations[i]}`);
     console.log(response?.data?.avatar_url);
-    // setState(arr => [response?.data?.avatar_url]);
-      state.push(response?.data?.avatar_url);
+      setState(arr => [response?.data?.avatar_url]);
+      // state.push(response?.data?.avatar_url);
 
     }
   };
